@@ -55,24 +55,6 @@ build CMakeFiles/SD_TEMA2.dir/main.cpp.obj: CXX_COMPILER__SD_TEMA2_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\SD_TEMA2.dir
   OBJECT_FILE_DIR = CMakeFiles\SD_TEMA2.dir
 
-build CMakeFiles/SD_TEMA2.dir/Node.cpp.obj: CXX_COMPILER__SD_TEMA2_Debug C$:/Users/sumur/Documents/GitHub/SD-TEMA2/Node.cpp || cmake_object_order_depends_target_SD_TEMA2
-  DEP_FILE = CMakeFiles\SD_TEMA2.dir\Node.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  OBJECT_DIR = CMakeFiles\SD_TEMA2.dir
-  OBJECT_FILE_DIR = CMakeFiles\SD_TEMA2.dir
-
-build CMakeFiles/SD_TEMA2.dir/LinkedList.cpp.obj: CXX_COMPILER__SD_TEMA2_Debug C$:/Users/sumur/Documents/GitHub/SD-TEMA2/LinkedList.cpp || cmake_object_order_depends_target_SD_TEMA2
-  DEP_FILE = CMakeFiles\SD_TEMA2.dir\LinkedList.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  OBJECT_DIR = CMakeFiles\SD_TEMA2.dir
-  OBJECT_FILE_DIR = CMakeFiles\SD_TEMA2.dir
-
-build CMakeFiles/SD_TEMA2.dir/ExpressNode.cpp.obj: CXX_COMPILER__SD_TEMA2_Debug C$:/Users/sumur/Documents/GitHub/SD-TEMA2/ExpressNode.cpp || cmake_object_order_depends_target_SD_TEMA2
-  DEP_FILE = CMakeFiles\SD_TEMA2.dir\ExpressNode.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  OBJECT_DIR = CMakeFiles\SD_TEMA2.dir
-  OBJECT_FILE_DIR = CMakeFiles\SD_TEMA2.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SD_TEMA2
@@ -81,7 +63,7 @@ build CMakeFiles/SD_TEMA2.dir/ExpressNode.cpp.obj: CXX_COMPILER__SD_TEMA2_Debug 
 #############################################
 # Link the executable SD_TEMA2.exe
 
-build SD_TEMA2.exe: CXX_EXECUTABLE_LINKER__SD_TEMA2_Debug CMakeFiles/SD_TEMA2.dir/main.cpp.obj CMakeFiles/SD_TEMA2.dir/Node.cpp.obj CMakeFiles/SD_TEMA2.dir/LinkedList.cpp.obj CMakeFiles/SD_TEMA2.dir/ExpressNode.cpp.obj
+build SD_TEMA2.exe: CXX_EXECUTABLE_LINKER__SD_TEMA2_Debug CMakeFiles/SD_TEMA2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SD_TEMA2.dir
